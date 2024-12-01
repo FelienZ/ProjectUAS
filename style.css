@@ -5,6 +5,9 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+body {
+  flex: 1;
+}
 .navbar {
   z-index: 1000;
 }
