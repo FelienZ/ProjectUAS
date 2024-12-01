@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Sempoerna Hotel & Residence</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  });
+</script>
+<script src="script.js"></script>
+
+
+</head>
+<body>  
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="width: 100%;background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="font-weight:600;">Sempoerna Hotel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="room.html">Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ballroom.html">Meeting & Ballroom</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Activity
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Kolam Renang</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Gymnasium</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sauna</a></li>
+            </ul>
+          </li>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Foto</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Video</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="AboutUs.html">Kontak</a></li>
+          </ul>
+        </li>
+        </ul>
+        
+      
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide custom-carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\NB\Saved Games\Downloads\LatihanBootstrap2\Pic\11.jpg" class="d-block w-100" alt="room">
+      <div class="carousel-caption">
+        <h1>Welcome To Sempoerna Hotel!</h1>
+        <p>Room & Services. Hotel kami menawarkan pengalaman yang tak terlupakan dengan fasilitas terbaik.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\NB\Saved Games\Downloads\LatihanBootstrap2\Pic\14.jpg" class="d-block w-100" alt="ballroom">
+      <div class="carousel-caption">
+        <h1>Welcome To Sempoerna Hotel!</h1>
+        <p>Bar & Restaurant. Kami Menyediakan Hidangan Lokal dan Hidangan yang Sedang Hits.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\NB\Saved Games\Downloads\LatihanBootstrap2\Pic\13.jpg" class="d-block w-100" alt="pool">
+      <div class="carousel-caption">
+        <h1>Welcome To Sempoerna Hotel!</h1>
+        <p>Pools. Rasakan kesegaran dan kenyamanan dengan pemandangan indah.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="isi">
+  <div class="row">
+    <!-- Navtab -->
+    <ul class="nav nav-tabs" style="margin-left: 5px;">
+      <li class="nav-item">
+        <a class="nav-link " style="color: black;" href="#">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: black;" href="#">Reservation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: black;" href="#">Location</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: black;" href="#">Services</a>
+      </li>
+    </ul>
+    <!-- Konten Kiri -->
+    <div class="col-md-6" style="width: 55%;">
+      <br>
+      <h2>Selamat Datang di Sempoerna Hotel!</h2>
+      <p style="text-align: justify;">Rasakan suasana rumah sendiri di hotel bintang 5 Sempoerna Hotel & Residence di pusat kota. Jelajahi toko desainer lokal, kemudian bersantailah di kolam luar-ruang, atau berolahraga di pusat kebugaran atau jalur jogging. Ruang pertemuan berperalatan lengkap dan Grand Ballroom menyediakan tempat yang sempurna untuk semua acara bisnis Anda di sini.
+        Kami menyediakan kuliner lokal dan juga berbagai makanan yang sedang hits pada bagian Resto kami. Nikmati juga kolam renang yang luas dan dilengkapi fasilitas sauna setelah berenang dan berolahraga.
+      </p>
+      <button type="button" class="btn btn-outline-dark">Selengkapnya</button>
+    </div>
+    <!-- Konten Kanan -->
+    <div class="col-md-7" style="max-width: 40%; margin-left: auto; margin-right:20px ;">
+      <br>
+      <div class="card text-dark bg-light mb-3" style="width: 22rem;">
+        <div class="card-body">
+          <h2 class="card-title" style="text-align: center; font-weight: bold;">Fasilitas Unggulan</h2>
+          <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;"><hr></h6>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="true">
+              Fasilitas Kenyamanan & Keamanan
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="...">
+              Fasilitas Rekreasi dan Relaksasi
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="...">
+              Fasilitas Bisnis
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="...">
+              Fasilitas Makanan dan Minuman
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="...">
+              Fasilitas Keunikan Lokal
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="...">
+              Free Wi-Fi
+            </li>
+            <li class="list-group-item">
+              <input class="form-check-input me-1" type="checkbox" value="" checked aria-label="...">
+              Fasilitas Keluarga
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="isi2">
+  <h2>Akomodasi Kami</h2>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="check-in">Check-in</label>
+      <input type="date" id="check-in" name="check-in">
+    </div>
+    <div class="form-group">
+      <label for="check-out">Check-out</label>
+      <input type="date" id="check-out" name="check-out">
+    </div>
+    <div class="form-group">
+      <label for="guests">1 kamar, 1 dewasa</label>
+      <select id="guests" name="guests">
+        <option value="1k1d">1 kamar, 1 dewasa</option>
+        <option value="1k2d">1 kamar, 2 dewasa</option>
+        <option value="2k2d">2 kamar, 2 dewasa</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="special-rate">Harga khusus</label>
+      <select id="special-rate" name="special-rate">
+        <option value="none">Tidak ada</option>
+        <option value="promo">Promo</option>
+        <option value="member">Member</option>
+      </select>
+    </div>
+    <button class="submit-button">Cek Harga</button>
+  </div>
+</div>
+<hr>
+<div class="isi3">
+<div class="location" style="text-align: center;"><h2 style="font-weight: bold;">Lokasi Hotel</h2></div>
+<div class="google-map-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.846412358687!2d-122.0842496847912!3d37.42199997982501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5a0f1f01a3b%3A0x3e9e5bdc4d5e5efb!2sGoogleplex!5e0!3m2!1sen!2sus!4v1617217071819!5m2!1sen!2sus" 
+    width="100%" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</div>
+<div class="ket">
+  <div class="ket1">
+    <p style="font-weight: bold;">Sempoerna Hotels & Residence</p>
+    <p>Jl. Soedirman</p>
+    <p>30xxx Indonesia</p>
+    <p>INDONESIA</p>
+  </div>
+  <div class="ket2">
+    <p><i class="fas fa-phone"></i> +62 711 111111</p>
+    <p><i class="fas fa-phone"></i> +62 711 111111</p>
+    <p><i class="fas fa-envelope"></i> SempoernaHotels@gmail.com</p>
+  </div>  
+</div>
+
+</div>
+</div>
+</div>
+
+
+<footer>Sempoerna Hotels Group © 2024</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
